@@ -2,12 +2,13 @@ body {
   background-color: grey;
 }
 
-h1 {
+h1,h2 {
   color: white;
   font-family: 'One Piece', sans-serif; 
   text-align: center;
   font-size: 70px;
 }
+
 
 img {
   margin: 0px 25px 5px 10px;
@@ -18,6 +19,14 @@ p {
   color:white;
   font-size: 20px;
   font-family: 'One Piece', sans-serif; 
+}
+table, th, td {
+  border: 3px solid black;
+   border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    color: white;
 }
 .luffy {
   float: left;
@@ -31,6 +40,14 @@ p {
   float: right;
   position: absolute;
 }
+
+.crew {
+  width: 600px;
+  height: 345px;
+  text-align: center;
+}
+
+
 
 .logo{
   position:absolute; 
